@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border Property</title>
+    <!-- Border Property (Border Radius) -->
+     <!-- Border Property (Box Sizing) -->
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        .pad{
+            height: 50px;
+            width: 50px;
+            margin: 5px;
+            padding: 2px;
+            box-sizing: border-box;
+        }
+        #first{
+            border: 2px dashed red ;
+            box-sizing: content-box;
+            border-radius: 10px 10px 10px 10px;
+            background-color: beige;
+        }
+        #second{
+            border: 2px solid green;
+            border-radius: 5px;
+            background-color: bisque;
+        }
+    </style>
+</head>
+<body>
+   <div id="first" class="pad">First</div> 
+   <div id="second" class="pad">Second</div>
+</body>
+</html>
+<!-- Usage of Border Radius: Used to create rounded corners for elements. -->

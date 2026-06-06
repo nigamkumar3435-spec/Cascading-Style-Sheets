@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    margin: 2px;
+    border: 3px solid black;
+}
+#heading{
+    text-align: center;
+}
+#container{
+    height: 500px;
+    width: 550px;
+    margin: 6px;
+    background-color: khaki ;
+    border: 3px solid black;
+    display: grid;
+    grid-template-columns: 159px 200px;
+    grid-template-rows: 120px 200px;
+}
+#box1{
+    background-color: darkturquoise;
+}
+#box2{
+    background-color: rgb(226, 46, 100);
+}
+#box3{
+    background-color: rgb(127, 162, 37);
+}
+#box4{
+    background-color: rgb(60, 209, 137);
+}

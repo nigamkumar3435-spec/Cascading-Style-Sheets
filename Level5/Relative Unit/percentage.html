@@ -1,0 +1,33 @@
+<!-- To make responsive design, we use (Relative Units). -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realtive Unit: Percentage</title>
+    <!-- Relative Sizing: Facilitates dynamic sizing relative to parents.
+     Adaptability: Ensures responsiveness across various screens.
+     Dimensions: Quickly set width and height as a percentage. -->
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        #first{
+            background-color: aquamarine;
+            height:100px;
+            width: 200px;
+        }
+        #second{
+            background-color: aqua;
+            width: 50%;
+            height: 40%;
+        }
+    </style>
+</head>
+<body>
+   <div id="first">First 
+        <div id="second">Second</div>
+   </div>
+</body>
+</html>

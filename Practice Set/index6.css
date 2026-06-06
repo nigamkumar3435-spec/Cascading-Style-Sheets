@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav a{
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    height: 25px;
+    padding-top: 5px;
+}
+img{
+    width: 170px;
+    height: 100px;
+    /* align-self: center; */
+}
+#imageContainer{
+    border: 2px solid black;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    background-color: rgb(238, 210, 174);
+}
